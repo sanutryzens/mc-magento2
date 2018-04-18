@@ -184,6 +184,7 @@ class Ecommerce
             try {
                 $batchArray['operations'] = $results;
                 $batchJson = json_encode($batchArray);
+                $this->_helper->log($batchJson);
 
                 if (!$batchJson || $batchJson == '') {
                     $this->_helper->log('An empty operation was detected');
