@@ -203,7 +203,7 @@ class Ecommerce
                     }
                 }
             } catch (\Mailchimp_Error $e) {
-                $this->_helper->log('MailChimp error ' . $e->getMessage());
+                $this->_helper->log('MailChimp error logging - ' . $e->getMessage());
             } catch (\Exception $e) {
                 $this->_helper->log("Json encode fails");
                 $this->_helper->log(var_export($batchArray, true));
