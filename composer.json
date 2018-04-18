@@ -18,18 +18,9 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "repositories": {
-    "ebizmarts-mailchimp-lib": {
-      "type": "vcs",
-      "url": "https://github.com/sanutryzens/mailchimp-lib"
-    }
-  },
   "support": {
     "email": "mailchimp@ebizmarts-desk.zendesk.com",
     "wiki": "https://connect.mailchimp.com/integrations/magento",
     "forum": "http://ebizmarts.com/forums/view/6"
-  },
-  "require" : {
-    "ebizmarts/mailchimp-lib": "dev-logging"
   }
 }
