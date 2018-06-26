@@ -176,10 +176,10 @@ class Ecommerce
             $results = array_merge($results, $orders);
             $carts = $this->_apiCart->createBatchJson($storeId);
             $results = array_merge($results, $carts);
-            $rules = $this->_apiPromoRules->sendRules($storeId);
+            /*$rules = $this->_apiPromoRules->sendRules($storeId);
             $results = array_merge($results, $rules);
             $coupons = $this->_apiPromoCodes->sendCoupons($storeId);
-            $results = array_merge($results, $coupons);
+            $results = array_merge($results, $coupons);*/
         }
 
         if (!empty($results)) {
